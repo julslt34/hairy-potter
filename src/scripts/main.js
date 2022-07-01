@@ -64,4 +64,12 @@ console.log(happyPlace)
 // Invoke the component function that renders the HTML list
 
 
+import {potteryList} from './PotteryList.js'
 
+const parentHTMLElement = document.querySelector(".potteryList")
+const finalProducts = potteryList()
+ console.log(finalProducts)
+
+//  parentHTMLElement.innerHTML = potteryList()
+
+parentHTMLElement.innerHTML = potteryList()
